@@ -54,7 +54,7 @@ public class GoogleDriveFileSyncManagerTest {
 		Insert insert=mock(Insert.class);
 		when(serviceMockDrive.files()).thenReturn(files);
 		when(files.insert(any(com.google.api.services.drive.model.File.class),any(AbstractInputStreamContent.class))).thenReturn(insert);			
-		when(insert.execute()).thenReturn(body);
+		//when(insert.execute()).thenReturn(body);
 		driveSyncMngr.addFile(file);
 		verify(insert).execute();
 		assertEquals("test", body.getId());
