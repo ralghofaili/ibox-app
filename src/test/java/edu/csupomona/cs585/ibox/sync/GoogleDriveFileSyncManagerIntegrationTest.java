@@ -1,4 +1,4 @@
-package edu.csupomona.cs585.ibox.sync;
+/*package edu.csupomona.cs585.ibox.sync;
 import static org.junit.Assert.*;
 
 import java.io.File;
@@ -33,3 +33,4 @@ public class GoogleDriveFileSyncManagerIntegrationTest {
 		driveMng.deleteFile(file);
 	}
 }
+*/
